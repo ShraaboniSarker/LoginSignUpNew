@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/mainpage"
+    tools:context="com.example.shraaboni.loginsignupnew.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Welcome To Our App"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:onClick="ChangeState"
+            android:id="@+id/b1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LogIn"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:onClick="ChangeState"
+            android:id="@+id/b2"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
